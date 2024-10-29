@@ -116,17 +116,17 @@ public class Settimeout {
             machineList.add(machineObject8_C);
             // 机器8_D（竖板）
             machineObject machineObject8_D = new machineObject();
-            machineObject8_D.settname("8_D");
+            machineObject8_D.settname("8-D");
             machineObject8_D.setmacId("D4:3D:39:1C:79:E8");
             machineObject8_D.setLogo_img_base64("none");
             machineList.add(machineObject8_D);
             // 机器8_E（竖板）
             machineObject machineObject8_E = new machineObject();
-            machineObject8_E.settname("8_E");
+            machineObject8_E.settname("8-E");
             machineObject8_E.setmacId("D4:3D:39:1C:61:DA");
             machineObject8_E.setLogo_img_base64("none");
             machineList.add(machineObject8_E);
-            
+
         } catch (Exception e) {
             System.out.println(e);
         }
