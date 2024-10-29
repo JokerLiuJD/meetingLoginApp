@@ -98,7 +98,7 @@ public class Settimeout {
             // 机器8-A（竖板）
             machineObject machineObject8_A = new machineObject();
             machineObject8_A.settname("8-A");
-            machineObject8_A.setmacId("D4:3D:39:1C:87:24");
+            machineObject8_A.setmacId("D4:3D:39:1C:61:DA");
             machineObject8_A.setLogo_img_base64("none");
             machineList.add(machineObject8_A);
             // 机器8-B（竖板）
@@ -120,12 +120,7 @@ public class Settimeout {
             machineObject8_D.setmacId("D4:3D:39:1C:79:E8");
             machineObject8_D.setLogo_img_base64("none");
             machineList.add(machineObject8_D);
-            // 机器8_E（竖板）
-            machineObject machineObject8_E = new machineObject();
-            machineObject8_E.settname("8-E");
-            machineObject8_E.setmacId("D4:3D:39:1C:61:DA");
-            machineObject8_E.setLogo_img_base64("none");
-            machineList.add(machineObject8_E);
+           
 
         } catch (Exception e) {
             System.out.println(e);
