@@ -77,28 +77,12 @@ public class Settimeout {
         //
         try {
 
-            // 机器6-A
-            // machineObject machineObject6_A = new machineObject();
-            // machineObject6_A.settid("65efb63117b85c5a9fb1fb8e");
-            // machineObject6_A.settid2("65efbb4d17b85c5a9fb216ea");
-            // machineObject6_A.settname("6-A");
-            // machineObject6_A.setmacId("D4:3D:39:1C:F3:24");
-            // machineList.add(machineObject6_A);
-            // 机器6-B
-            // machineObject machineObject6_B = new machineObject();
-            // machineObject6_B.settid("6625c1c14c4ea95288844e02");
-            // machineObject6_B.settid2("6621f0614c4ea95288808873");
-            // machineObject6_B.settname("6-B");
-            // machineObject6_B.setmacId("D4:3D:39:1C:E5:9C");
-            // machineList.add(machineObject6_B);
-
             // 机器6-A（竖板）
             machineObject machineObject6_A = new machineObject();
             machineObject6_A.settname("6-A");
             machineObject6_A.setmacId("D4:3D:39:1C:F3:24");
             machineList.add(machineObject6_A);
-
-            // 机器7-A（竖板）
+           // 机器7-A（竖板）
             machineObject machineObject7_A = new machineObject();
             machineObject7_A.settname("7-A");
             machineObject7_A.setmacId("D4:3D:39:1C:E5:9C");
@@ -130,18 +114,19 @@ public class Settimeout {
             machineObject8_C.setmacId("D4:3D:39:1C:70:70");
             machineObject8_C.setLogo_img_base64("none");
             machineList.add(machineObject8_C);
-            // 机器7-B（竖板）
+            // 机器8_D（竖板）
             machineObject machineObject8_D = new machineObject();
             machineObject8_D.settname("8_D");
             machineObject8_D.setmacId("D4:3D:39:1C:79:E8");
             machineObject8_D.setLogo_img_base64("none");
             machineList.add(machineObject8_D);
-            // 机器7-B（竖板）
+            // 机器8_E（竖板）
             machineObject machineObject8_E = new machineObject();
             machineObject8_E.settname("8_E");
             machineObject8_E.setmacId("D4:3D:39:1C:61:DA");
             machineObject8_E.setLogo_img_base64("none");
             machineList.add(machineObject8_E);
+            
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -1184,7 +1169,7 @@ public class Settimeout {
                     document.getElementById("companyLogo").setAttribute("xlink:href", Logo_img_base64);
                 }
                 if (Logo_img_base64.equals("none")) {
-                    document.getElementById("companyLogo").setAttribute("xlink:href", "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+                    document.getElementById("companyLogo").setAttribute("xlink:href", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAADKCAYAAAB+D18cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAJOgAACToAYJjBRwAAAKWSURBVHhe7dQxAcAgEMDAp/49A0MlkO1uiYOsfQ1A4PsL8JzBABmDATIGA2QMBsgYDJAxGCBjMEDGYICMwQAZgwEyBgNkDAbIGAyQMRggYzBAxmCAjMEAGYMBMgYDZAwGyBgMkDEYIGMwQMZggIzBABmDATIGA2QMBsgYDJAxGCBjMEDGYICMwQAZgwEyBgNkDAbIGAyQMRggYzBAxmCAjMEAGYMBMgYDZAwGyBgMkDEYIGMwQMZggIzBABmDATIGA2QMBsgYDJAxGCBjMEDGYICMwQAZgwEyBgNkDAbIGAyQMRggYzBAxmCAjMEAGYMBMgYDZAwGyBgMkDEYIGMwQMZggIzBABmDATIGA2QMBsgYDJAxGCBjMEDGYICMwQAZgwEyBgNkDAbIGAyQMRggYzBAxmCAjMEAGYMBMgYDZAwGyBgMkDEYIGMwQMZggIzBABmDATIGA2QMBsgYDJAxGCBjMEDGYICMwQAZgwEyBgNkDAbIGAyQMRggYzBAxmCAjMEAGYMBMgYDZAwGyBgMkDEYIGMwQMZggIzBABmDATIGA2QMBsgYDJAxGCBjMEDGYICMwQAZgwEyBgNkDAbIGAyQMRggYzBAxmCAjMEAGYMBMgYDZAwGyBgMkDEYIGMwQMZggIzBABmDATIGA2QMBsgYDJAxGCBjMEDGYICMwQAZgwEyBgNkDAbIGAyQMRggYzBAxmCAjMEAGYMBMgYDZAwGyBgMkDEYIGMwQMZggIzBABmDATIGA2QMBsgYDJAxGCBjMEDGYICMwQAZgwEyBgNkDAbIGAyQMRggYzBAxmCAjMEAGYMBMgYDZAwGyBgMkDEYIGMwQMZggIzBABmDATIGA2QMBsgYDJAxGCBjMEDGYIDIzAGs7gWQS6TkrwAAAABJRU5ErkJggg==");
                 }
             } catch (Exception e) {
                 // TODO: handle exception
