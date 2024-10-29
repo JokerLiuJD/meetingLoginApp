@@ -92,12 +92,6 @@ public class Settimeout {
             // machineObject6_B.setmacId("D4:3D:39:1C:E5:9C");
             // machineList.add(machineObject6_B);
 
-            // 机器Ntt（竖板）
-            machineObject machineObjectNtt = new machineObject();
-            machineObjectNtt.settname("");
-            machineObjectNtt.setmacId("D4:3D:39:1C:E5:9C");
-
-            machineList.add(machineObjectNtt);
             // 机器6-A（竖板）
             machineObject machineObject6_A = new machineObject();
             machineObject6_A.settname("6-A");
@@ -107,7 +101,7 @@ public class Settimeout {
             // 机器7-A（竖板）
             machineObject machineObject7_A = new machineObject();
             machineObject7_A.settname("7-A");
-            machineObject7_A.setmacId("D4:3D:39:1C:79:E8");
+            machineObject7_A.setmacId("D4:3D:39:1C:E5:9C");
             machineObject7_A.setLogo_img_base64("none");
             machineList.add(machineObject7_A);
             // 机器7-B（竖板）
@@ -1190,7 +1184,7 @@ public class Settimeout {
                     document.getElementById("companyLogo").setAttribute("xlink:href", Logo_img_base64);
                 }
                 if (Logo_img_base64.equals("none")) {
-                    document.getElementById("companyLogo").setAttribute("xlink:href", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=");
+                    document.getElementById("companyLogo").setAttribute("xlink:href", "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
                 }
             } catch (Exception e) {
                 // TODO: handle exception
