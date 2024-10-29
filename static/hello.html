@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous" />
+    <style type="text/css">
+        div {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: yellow;
+            margin: 0;
+        }
+
+        .screen {
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            width: 640px;
+            height: 960px;
+            overflow: hidden;
+        }
+        .font-red {
+            color: red;
+        }
+
+        .font-white {
+            color: white;
+        }
+
+        .font-red {
+            color: black;
+        }
+
+        .background-black {
+            background-color: black;
+        }
+
+        .font-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .background-red {
+            background-color: red;
+        }
+
+        .background-white {
+            background-color: white;
+        }
+
+        .header-statebox {
+            display: flex;
+            flex-wrap: wrap;
+            width: 480px;
+        }
+
+        .header-statebox-status {
+            background-color: white;
+            font-size: 28px;
+            height: 50%;
+            width: 480px;
+        }
+
+        .bussy {
+            background-color: red;
+        }
+
+        .blank {
+            background-color: white;
+        }
+
+        .header-statebox-roomname {
+            width: 40%;
+            height: 50%;
+            background-color: white;
+        }
+
+        .header-statebox-logo-napir {
+            background-image: url("./napir_logo.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 285px 90px;
+            box-sizing: border-box;
+            height: 50%;
+            width: 60%;
+        }
+
+        .header-qrcode {
+            width: 160px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header-qrcode-image {
+            background-image: url("./booking_qrcode.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 10px;
+            height: 100px;
+            width: 100px;
+            background-color: green;
+        }
+
+        tbody tr td:nth-child(1) {
+            font-size: 20px;
+            width: 15%;
+            text-align: start;
+        }
+
+        tbody tr td:nth-child(2) {
+            width: 70%;
+        }
+
+        tbody tr td:nth-child(3) {
+            width: 15%;
+            text-align: end;
+        }
+
+        .list {
+            width: 100%;
+            height: 780px;
+        }
+
+        .header {
+            background-color: transparent;
+            display: flex;
+            width: 100%;
+            height: 180px;
+        }
+
+        .text-break {
+            word-wrap: break-word;
+        }
+
+        .text-wrap {
+            overflow-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="header">
+            <div class="header-statebox">
+                <div class="header-statebox-logo-napir"></div>
+                <div class="header-statebox-roomname font-center">
+                    6階 B室
+                </div>
+                <div class="header-statebox-status bussy font-white font-center">
+                    利 用 中
+                </div>
+            </div>
+
+            <div class="header-qrcode">
+                <div class="header-qrcode-title font-center">
+                    予約コード:
+                </div>
+
+                <div class="header-qrcode-image"></div>
+            </div>
+        </div>
+        <div class="list">
+            <table class="table table-bordered" style="word-break:break-all; word-wrap:break-word;">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col" style="text-align: center;">2024/05/10</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>17:00~19:00</td>
+                        <td>
+                            <div class="text-break text-wrap" style="overflow-wrap: break-word;">
+                                mdo123333333333333333333333333333333333333333333333333
+                            </div>
+                        </td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-bordered" style="word-break:break-all; word-wrap:break-word;">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col" style="text-align: center;">2024/05/15</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>17:00~19:00</td>
+                        <td>
+                            <div class="text-break text-wrap" style="overflow-wrap: break-word;">
+                                mdo123333333333333333333333333333333333333333333333333
+                            </div>
+                        </td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr>
+                        <td>20:00~21:00</td>
+                        <td>@fat</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
